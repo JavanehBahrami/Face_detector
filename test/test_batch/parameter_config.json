@@ -1,0 +1,17 @@
+{
+	"width_model" : 960,
+    "height_model" : 544,
+	"channel" : 3,
+	"batch_size" : 6,
+	"stride" : 16,
+	"box_norm" : 35.0,
+	"num_class" : 2,
+	"confidence" : 0.5,
+	"min_size" : [30, 30],
+	"nms_threshold" : 0.5,
+	"scale_x" : 1.0,
+	"scale_y" : 1.0,
+	"trt_path" : "/workspace/test_tlt/model/resnet34_peoplenet_pruned_b32_int8.trt",
+	"img_path" : "/workspace/python_inference/input_images",
+	"mode_visualize" : false
+}
